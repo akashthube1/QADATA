@@ -1,19 +1,28 @@
-package com.assignment2;
+package com.object;
+import java.util.Scanner;
 
 public class Power {
+	
+	public int findPow(int base,int pow)
+	{
+		int result = (int)(Math.pow(base, pow));
+		return result;
+	}
 
 	public static void main(String[] args) {
-	
-		int base = 3;
-		int exponent = 2;
 		
-		int i = 1, r = 1;
-		while(i <= exponent)
-		{
-			r*=base;
-			i++;
-		}
-        System.out.println("Result is "+base+ "^"+exponent+ "=" +r+"\n");
+		Power obj = new Power();
+		Scanner sc =new Scanner(System.in);
+		
+		System.out.println("Enter the base");
+		int base = sc.nextInt();
+		System.out.println("Enter the power");
+		int pow = sc.nextInt();
+		
+		double ans = obj.findPow(base, pow);
+		System.out.println("Power of given number is : "+ans);
+
+
 	}
 
 }

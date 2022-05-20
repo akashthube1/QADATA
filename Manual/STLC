@@ -1,0 +1,24 @@
+STLC :
+
+1.Test plan - done by the manager or leads when they get requirment 
+              from the user.it consists testing activities.
+2.Test document - After read and revive process done by the t.e then
+              Based on test plan t.e started writing document is called test document
+3.Test scenarios - Based on test document t.e write the high level 
+              document is called test scenarios.
+4.Test case - When developer started writing code then t.e write detailed document
+              is called test cases. and that document send to the reveiver 
+              for revive the document and reveiver will make changes when it is necessary.
+5.Test Case Repository - When test case approved by the leads then it will
+              stored at the centralized location called TCR.
+6.Reqirement Tracebillity Matrix - Before test execution we prepared one document
+              call RTM it check every requirment cover in the test case 
+              or not.
+7.Testing - performing diff. types testing i.e smoke testing,functional testing,
+            integration testing and system testing. When tester get any bug then 
+			it will hand over to developer to fix the bug, when it done then tester
+			retest the application and when app get bug free then it will hand over to
+			client
+8.Test Execution Report - How much tests are perform and how many get passed and fail
+                          that info will get store into the TER and ration of pass and fail 
+						  out of test that will decides the stability of application.

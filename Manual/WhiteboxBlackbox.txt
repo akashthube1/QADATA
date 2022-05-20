@@ -1,0 +1,23 @@
+Types of testing
+1. white Box Testing : (Developer Testing it self) - In WBT to check each and every line of code for reduced the no of bugs.
+                        DisAdvantages - Time consuming,Proper consistancy not maintain. (java ,nunit)
+				        Tool Used - Unit Testing tool used (Its check main program ) - Timing saving ,Maintain TDS,Accuracy maintain.
+						
+		*if they asked: Types : 1. Path Testing - They will ckeck the flow for main() of the code by executing it manually.
+						        2. Condition Testing - They will check each and every line for condition testing i.e true and false.
+								3. Loop Testing - They check number of cycles(repeatative task),Same line of code you have to executing 
+								                  multiple time. (for,while,no while) loops are used to test.
+						        4. Memory Testing - Here developer check the unused code of lines,unused variable and function.
+								                    and they will remove it.(Tool - Rational purify Tool)		          
+							    5. Response Testing - Execution time check by the developer.(Tool - Rational qauntifire Tool)	
+						
+2. Black Box Testing :   
+                                1. Functional/Component Testing : 
+								2. Integration Testing : When ever application install in our system to test. then we can do integration
+                            							 testing for check Data flow between depedent module.
+								                         Ex - Enter username and password and check the homepage there is username show 
+														      as title of the page.
+											Types : a) Incremental Integration Testing- TopDOwn Approach And BottomUp Approach
+											        b) Non-Incremental Integration / Big Bang Theory : Ex-Gmail Application
+								3. System Testing : End to end check of application like user known as System testing.
+3. Gray Box Testing 

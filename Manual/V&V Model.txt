@@ -1,0 +1,43 @@
+V & V Model :
+             Its is one of the most powerfull model of software development life cycle(SDLC).
+             It is executed in v shape manner & V & V stand for Verification and validation model.
+             In V & V model development team and testing team works simultaneously.
+
+1. When business analyst gather the requirement from the customer and that requirement are converted into
+   i.e BRS(business requirement specification) for checking its fullfill or not and simultaneously that requirement
+   review by the testing team and they will write acceptance test document on that requirement.
+   
+2. Then that BRS is converted into SRS (System Requirment Specification) this contains systeam design and which hardware
+   needed to develop the software and simultaneously testing team review the SRS and write the System test document.
+   
+3. After BRS and SRS the next part is designing the HLD (High Level Design) i.e whole architecture of the software design
+   to understand the actual flow of the software and simultaneously testing team review the HLD and write the integration 
+   document.
+
+4. When HLD is done then LLD (Low Level Design) i.e component base design of the software to understand the component level
+   flow of software and simultaneously testing team review the LLD and and write the functional test document.
+
+4. After LLD design the actual coding phase start to develop the software, Development team write code and 
+   when development team done by the coding.
+   
+5. Testing phase started to test the code in several ways;
+   a) Unit testing : in unit testing testing team test the internal part i.e actual code will be test by unit by unit which is 
+                     wrote by the developer.
+   b) Component Testing : in component testing tester will finding the errors of the component, tester not check the coding 
+                     in the component testing , tester is only check requirement is fullfill or not.
+   c) System Integration Testing : In this type of testing involves the overall testing of the systeam of many subsytem components
+                     and also check hardware as well as software.
+   d) System Testing :In the systeam testing tester will check overall requirement of customer and software fullfill or not 
+                     if any bug is found then that again handover to development to fix that bug after bug is fixed by the development 
+                     team then that software is again retest by testing team. When our software is bug free the it is ready to 
+                     deploy the customer.
+
+    Advantages : 1. Tester has more knowladge of requirements than developer.
+                 2. Requirment review is process is possible.
+                 3. Both development and testing team work simultaneously.
+                 4. Easy to implement.
+                 5. Easy to defect tracking i.e defect is found early stage.
+    
+	Disadvantages : 1. If requirement changes in midway then test document is need to update.
+                 	2. Time consuming.
+                        3. Its very costlier.	

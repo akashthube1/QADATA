@@ -1,0 +1,25 @@
+Software development life cycle:
+1. Requirements 
+2. Analysis
+3. Designing
+4. Coding
+5. Testing
+6. Deployment/Maintenance
+
+Software Types :
+1. System Software
+2. Application Software
+3. Utility Software
+
+Application Types :
+1. WebApplication
+2. Standalone Application
+3. Client server Application
+
+Waterfall model
+Spiral/cyclic model
+Prototye Model
+V&V model
+Hybrid Model = (Spiral + Prototype),(Prototye Model + V&V model)
+Agile Methodology
+
